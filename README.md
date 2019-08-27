@@ -44,5 +44,7 @@ Now, you can happily terminate your Google Play Music Subscription (e.g. because
 * Take note of skipped songs that will be printed at the end
 * Skipped songs result from that song not being available on Spotify (because of market settings or different naming) or the song having been added to Google Play Music's playlist via UUID. 
 
-7. Seventh (optional) Step:
-* 
+7. Seventh (optional) Step: Run match_googleID_to_artist_song.py
+* Edit list of skipped songs (UUIDs only) into script
+* Execute script
+* Add identified songs to your playlists via Spotify Web Player
