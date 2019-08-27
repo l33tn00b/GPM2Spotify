@@ -36,4 +36,13 @@ Now, you can happily terminate your Google Play Music Subscription (e.g. because
 * Still not successful? Check Client ID and Client Secret.
 * No luck, still? Check, re-check, and double-check redirect-URL in the developer console and get_permissions.py being identical
 
-6. Sixth Step: 
+6. Sixth Step: Run Spotify_04.py for each playlist be imported to Spotify
+* Edit filename of json dump into the script (variable "fname")
+* Edit username into the script (variable "username")
+* Edit Client ID and Client Secret into the script ("clientid" and "clientsecret")
+* Run script
+* Take note of skipped songs that will be printed at the end
+* Skipped songs result from that song not being available on Spotify (because of market settings or different naming) or the song having been added to Google Play Music's playlist via UUID. 
+
+7. Seventh (optional) Step:
+* 
